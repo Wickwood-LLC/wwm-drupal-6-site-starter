@@ -26,10 +26,11 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-; Use Pressflow instead of Drupal core:
+; Use BOA Pressflow instead of Drupal core:
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "https://github.com/pressflow/6.git"
+projects[pressflow][download][url] = "https://github.com/omega8cc/pressflow6.git"
+projects[pressflow][download][branch] = "master"
 
 
 ; Add Modules that are automatically included by BOA hosting system
