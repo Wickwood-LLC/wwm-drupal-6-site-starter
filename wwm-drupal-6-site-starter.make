@@ -36,38 +36,48 @@ projects[pressflow][download][branch] = "master"
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
 ; --------
-projects[] = admin	
-projects[] = backup_migrate
-projects[] = blockcache_alter
-projects[] = boost
-projects[] = cache
-projects[] = config_perms
-projects[] = css_emimage
-projects[] = dbtuner
-projects[] = esi
-projects[] = expire
-projects[] = filefield_nginx_progress
-projects[] = fpa
-projects[] = httprl
-projects[] = login_security
-projects[] = private_upload
-projects[] = purge
-projects[] = readonlymode
-; projects[] = robotstxt
-projects[robotstxt][version] = 1.x-dev
-projects[robotstxt][type] = "module"
-projects[] = seckit
-projects[] = securesite
-projects[] = site_verify
-projects[] = taxonomy_edge
-projects[] = textile
-projects[] = variable_clean
-projects[] = views_content_cache
-projects[] = views404
+projects = admin
+projects = advagg
+projects = audio
+projects = backup_migrate
+projects = blockcache_alter
+projects = boost
+projects = cache_backport
+projects = ckeditor
+projects = config_perms
+projects = css_emimage
+projects = dbtuner
+projects = devel
+projects = esi
+projects = expire
+projects = fbconnect
+projects = fckeditor
+projects = filefield_nginx_progress
+projects = fpa
+projects = httprl
+projects = imagecache
+projects = imagecache_external
+projects = login_security
+projects = private_upload
+projects = purge
+projects = readonlymode
+projects = redis
+projects = robotstxt
+projects = rubik
+projects = seckit
+projects = securesite
+projects = site_verify
+projects = taxonomy_edge
+projects = textile
+projects = tinybrowser
+projects = tinymce
+projects = variable_clean
+projects = views_content_cache
+projects = views404
+projects = wysiwyg_spellcheck
 
 
 ; Modules Added for Wickwood Marketing Drupal 6 Site Starter
-
 ; --------
 
 
