@@ -1,3 +1,10 @@
+; ----------------
+; Generated makefile from http://drushmake.me
+; Permanent URL: http://drushmake.me/file.php?token=f9566d20814c
+; ----------------
+;
+; This is a working makefile - try it! Any line starting with a `;` is a comment.
+
 ; Core version
 ; ------------
 ; Each makefile should begin by declaring the core version of Drupal that all
@@ -19,6 +26,10 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
+; Use Pressflow instead of Drupal core:
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "https://github.com/pressflow/6.git"
 
 
 ; Add Modules that are automatically included by BOA hosting system
@@ -55,6 +66,7 @@ projects[] = views404
 
 
 ; Modules Added for Wickwood Marketing Drupal 6 Site Starter
+
 ; --------
 
 
