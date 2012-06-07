@@ -33,3 +33,50 @@ projects[drupal][download][url] = "https://github.com/omega8cc/pressflow6.git"
 projects[drupal][download][branch] = "master"
 
 
+; Add Modules that are automatically included by BOA hosting system
+; to override them with the latest versions
+; --------
+projects[] = admin
+projects[] = advagg
+projects[] = audio
+projects[] = backup_migrate
+projects[] = blockcache_alter
+projects[] = boost
+projects[] = cache_backport
+projects[] = ckeditor
+projects[] = config_perms
+projects[] = css_emimage
+projects[] = dbtuner
+projects[] = devel
+projects[] = esi
+projects[] = expire
+projects[] = fbconnect
+projects[] = fckeditor
+projects[] = filefield_nginx_progress
+projects[] = fpa
+projects[] = httprl
+projects[] = imagecache
+projects[] = imagecache_external
+projects[] = login_security
+projects[] = private_upload
+projects[] = purge
+projects[] = readonlymode
+; Took out redis module because I could not find a D6 version
+; projects[] = redis
+projects[] = robotstxt
+projects[] = seckit
+projects[] = securesite
+projects[] = site_verify
+projects[] = taxonomy_edge
+projects[] = textile
+projects[] = tinybrowser
+projects[] = tinymce
+projects[] = variable_clean
+projects[] = views_content_cache
+projects[] = views404
+projects[] = wysiwyg_spellcheck
+
+; Add Themes that are automatically included by BOA hosting system
+; to override them with the latest versions
+; --------
+projects[] = rubik
