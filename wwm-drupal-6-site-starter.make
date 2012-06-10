@@ -32,6 +32,10 @@ projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "https://github.com/omega8cc/pressflow6.git"
 projects[drupal][download][branch] = "master"
 
+; Patch Pressflow to run on BOA
+; and use robotstxt module_builder
+projects[pressflow][patch][] = "file:///data/disk/wwmhosting-admin/static/custom/platform-make-files/wwm-drupal-6-site-starter/wwm-boa-pressflow6-patch.patch"
+
 
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
