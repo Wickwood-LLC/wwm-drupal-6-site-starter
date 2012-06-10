@@ -27,10 +27,10 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Use BOA Pressflow instead of Drupal core:
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "git"
-projects[drupal][download][url] = "https://github.com/omega8cc/pressflow6.git"
-projects[drupal][download][branch] = "master"
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "https://github.com/omega8cc/pressflow6.git"
+projects[pressflow][download][branch] = "master"
 
 ; Patch Pressflow to run on BOA
 ; and use robotstxt module_builder
