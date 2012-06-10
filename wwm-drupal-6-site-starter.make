@@ -83,6 +83,7 @@ projects[] = wysiwyg_spellcheck
 ; Add Themes that are automatically included by BOA hosting system
 ; to override them with the latest versions
 ; --------
+projects[] = tao
 projects[] = rubik
 
 ; Modules Added for Wickwood Marketing Drupal 6 Site Starter
