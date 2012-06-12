@@ -35,3 +35,4 @@ rm -r wkhtmltopdf
 
 # Change ownership of the platform
 chown -R wwmhosting-admin.ftp /data/disk/wwmhosting-admin/static/$platform_dir
+chgrp -R www-data /data/disk/wwmhosting-admin/static/$platform_dir
