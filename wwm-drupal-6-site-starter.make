@@ -244,7 +244,7 @@ projects[] = workflow_post_install
 projects[] = wysiwyg
 projects[wysiwyg_imageupload][type] = "module"
 projects[wysiwyg_imageupload][download][type] = "git"
-projects[wysiwyg_imageupload][download][url] = "http://git.drupal.org/project/jquery_ui_dialog.git"
+projects[wysiwyg_imageupload][download][url] = "https://github.com/EugenMayer/wysiwyg_imageupload.git"
 projects[wysiwyg_imageupload][tag] = 2.9
 projects[] = xmlsitemap
 
