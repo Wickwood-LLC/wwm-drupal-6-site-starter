@@ -152,6 +152,7 @@ projects[] = location
 projects[] = loginlogout
 projects[] = logintoboggan
 projects[] = mailchimp
+projects[] = media_youtube
 projects[] = menu_attributes
 projects[] = menu_breadcrumb
 projects[] = mimemail
