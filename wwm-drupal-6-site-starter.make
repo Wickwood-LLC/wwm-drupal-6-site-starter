@@ -96,6 +96,7 @@ projects[] = advpoll
 projects[] = ajax_poll
 projects[] = arrange_fields
 projects[] = auto_nodetitle
+projects[] = autoassignrole
 projects[] = avatarcrop
 projects[] = backup_migrate_files
 projects[] = better_formats
