@@ -181,6 +181,7 @@ projects[] = print
 projects[] = profile_category_weight
 projects[] = profile_csv
 projects[] = profileplus
+projects[] = recaptcha
 projects[] = revisioning
 projects[] = role_change_notify
 projects[] = rounded_corners
