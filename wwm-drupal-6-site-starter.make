@@ -101,6 +101,7 @@ projects[] = avatarcrop
 projects[] = backup_migrate_files
 projects[] = better_formats
 projects[] = calendar
+projects[] = captcha
 projects[] = cck
 projects[] = chart
 projects[] = charts
