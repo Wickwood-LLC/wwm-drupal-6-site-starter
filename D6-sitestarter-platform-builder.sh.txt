@@ -39,5 +39,9 @@ rm -r wkhtmltopdf
 # Copy image.imagemagick.inc file to platform /includes file
 cp data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/image/image.imagemagick.inc data/disk/wwmhosting-admin/static/$platform_dir/includes/image.imagemagick.inc
 
+# Move TinyMCE Spell Checker
+rm -rf data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
+mv  data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker-new data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
+
 # Change ownership of the platform
 chown -R wwmhosting-admin.ftp /data/disk/wwmhosting-admin/static/$platform_dir
