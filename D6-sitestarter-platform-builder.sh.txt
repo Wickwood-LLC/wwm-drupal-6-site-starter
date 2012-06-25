@@ -36,5 +36,8 @@ chmod 775 /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/pri
 cd /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries
 rm -r wkhtmltopdf
 
+# Copy image.imagemagick.inc file to platform /includes file
+cp data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/image/image.imagemagick.inc data/disk/wwmhosting-admin/static/$platform_dir/includes/image.imagemagick.inc
+
 # Change ownership of the platform
 chown -R wwmhosting-admin.ftp /data/disk/wwmhosting-admin/static/$platform_dir
