@@ -47,6 +47,7 @@ projects[] = backup_migrate
 projects[] = blockcache_alter
 ; projects[] = boost
 projects[] = cache_backport
+projects[] = cdn
 projects[] = ckeditor
 projects[] = config_perms
 projects[] = css_emimage
@@ -68,7 +69,7 @@ projects[] = readonlymode
 ; Took out redis module because I could not find a D6 version
 ; projects[] = redis
 projects[] = robotstxt
-projects[] = seckit
+; Moved seckit because it was no longer listed in BOA list
 projects[] = securesite
 projects[] = site_verify
 projects[] = taxonomy_edge
@@ -191,6 +192,7 @@ projects[] = rounded_corners
 projects[] = rules
 projects[] = schema
 projects[] = search404
+projects[] = seckit
 projects[] = seo_checklist
 projects[] = services
 ; projects[] = shadowbox
