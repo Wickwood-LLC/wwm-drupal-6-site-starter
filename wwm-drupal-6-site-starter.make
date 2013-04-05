@@ -250,21 +250,21 @@ projects[] = workflow_post_install
 projects[] = wysiwyg
 projects[] = xmlsitemap
 
-; WYSIWYG Image Upload Project has been labled as unsupported on D.O.
-; However, the modules are available on github
-; Need to find a supported, more secure, and more stable replacement
+; WYSIWYG Image Upload Project has been removed from github
+; but it has been readded as a supported module on D.O.
 projects[wysiwyg_imageupload][type] = "module"
-projects[wysiwyg_imageupload][download][type] = "git"
-projects[wysiwyg_imageupload][download][url] = "https://github.com/EugenMayer/wysiwyg_imageupload.git"
-projects[wysiwyg_imageupload][tag] = 2.9
-projects[drupalwiki_imageselect_element][type] = "module"
-projects[drupalwiki_imageselect_element][download][type] = "git"
-projects[drupalwiki_imageselect_element][download][url] = "https://github.com/EugenMayer/drupalwiki_imageselect_element.git"
-projects[drupalwiki_imageselect_element][tag] = 6.x-1.0-beta1
-projects[jquery_ui_dialog][type] = "module"
-projects[jquery_ui_dialog][download][type] = "git"
-projects[jquery_ui_dialog][download][url] = "https://github.com/EugenMayer/jquery_ui_dialog.git"
-projects[jquery_ui_dialog][tag] = 6.x-1.10 
+projects[wysiwyg_imageupload][version] = 2.9
+
+; drupalwiki_imageselect_element has been removed from github
+; but there is no substiture for it on D.O. or anywhere else that I can find.
+; projects[drupalwiki_imageselect_element][type] = "module"
+; projects[drupalwiki_imageselect_element][download][type] = "git"
+; projects[drupalwiki_imageselect_element][download][url] = "https://github.com/EugenMayer/drupalwiki_imageselect_element.git"
+: projects[drupalwiki_imageselect_element][tag] = 6.x-1.0-beta1
+
+; WYSIWYG Image Upload Project has been removed from github
+; but it has been readded as a supported module on D.O.
+projects[] = jquery_ui_dialog
 
 
 ; Themes
@@ -279,7 +279,7 @@ libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerpla
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
 libraries[jquery.ui][download][type] = "file"
-libraries[jquery.ui][download][url] = "http://jqueryui.com/download/jquery-ui-1.7.3.custom.zip"
+libraries[jquery.ui][download][url] = "http://jqueryui.com/resources/download/jquery-ui-1.10.2.zip"
 ; libraries[jquery.ui][download][sha1] = "a3d1119d7b5a4a0b4eb50929ffd05cc7e7cd3eb2"
 ; libraries[jquery.ui][destination] = "sites/all/modules/jquery_ui"
 libraries[simplepie][download][type] = "git"
