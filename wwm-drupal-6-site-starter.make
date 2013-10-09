@@ -204,7 +204,6 @@ projects[] = seo_checklist
 projects[] = shadowbox
 projects[] = scheduler
 projects[] = simpletest
-projects[] = site_verify
 projects[] = slideshow_creator
 projects[] = smart_menus
 projects[] = smtp
