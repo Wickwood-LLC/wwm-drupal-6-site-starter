@@ -257,7 +257,8 @@ projects[wibiya][version] =  1.1
 projects[] = workflow
 projects[] = workflow_post_install
 projects[] = wysiwyg
-projects[] = wysiwyg_imageupload
+projects[wysiwyg_imageupload][type] = "module"
+projects[wysiwyg_imageupload][version] = 2.9
 projects[] = xmlsitemap
 
 
