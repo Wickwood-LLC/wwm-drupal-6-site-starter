@@ -149,6 +149,7 @@ projects[] = imagecache_actions
 projects[] = imagecache_profiles
 projects[] = imagefield
 projects[] = imagemenu
+projects[] = jquery_ui_dialog
 projects[] = jquery_plugin
 projects[] = jquery_ui
 projects[] = jquery_update
@@ -256,23 +257,9 @@ projects[wibiya][version] =  1.1
 projects[] = workflow
 projects[] = workflow_post_install
 projects[] = wysiwyg
+projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
-; WYSIWYG Image Upload Project has been removed from github
-; but it has been readded as a supported module on D.O.
-projects[wysiwyg_imageupload][type] = "module"
-projects[wysiwyg_imageupload][version] = 2.9
-
-; drupalwiki_imageselect_element has been removed from github
-; but there is no substiture for it on D.O. or anywhere else that I can find.
-; projects[drupalwiki_imageselect_element][type] = "module"
-; projects[drupalwiki_imageselect_element][download][type] = "git"
-; projects[drupalwiki_imageselect_element][download][url] = "https://github.com/EugenMayer/drupalwiki_imageselect_element.git"
-: projects[drupalwiki_imageselect_element][tag] = 6.x-1.0-beta1
-
-; WYSIWYG Image Upload Project has been removed from github
-; but it has been readded as a supported module on D.O.
-projects[] = jquery_ui_dialog
 
 
 ; Themes
