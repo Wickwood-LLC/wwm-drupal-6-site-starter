@@ -198,11 +198,13 @@ projects[] = schema
 projects[] = search404
 projects[] = seckit
 projects[] = seo_checklist
-projects[] = services
+; Services is currently not available for Drupal 6 do to security issue
+; It may never be supported again
+; projects[] = services
 projects[] = shadowbox
 projects[] = scheduler
 projects[] = simpletest
-projects[] = site_verification
+projects[] = site_verify
 projects[] = slideshow_creator
 projects[] = smart_menus
 projects[] = smtp
