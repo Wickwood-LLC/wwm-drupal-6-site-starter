@@ -27,14 +27,15 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Use BOA Pressflow instead of Drupal core:
+; The following version of Drupal 6 Core is preferred fro BOA server
 projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "https://github.com/omega8cc/pressflow6.git"
-projects[pressflow][download][branch] = "master"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.29.1.tar.gz"
 
 ; Patch Pressflow to run on BOA
 ; and use robotstxt module_builder
-projects[pressflow][patch][] = "file:///data/disk/wwmhosting-admin/static/custom/platform-make-files/wwm-drupal-6-site-starter/wwm-boa-pressflow6-patch.patch"
+; Commented this out to test if it would work with out it with new core download.
+; projects[pressflow][patch][] = "file:///data/disk/wwmhosting-admin/static/custom/platform-make-files/wwm-drupal-6-site-starter/wwm-boa-pressflow6-patch.patch"
 
 
 ; Add Modules that are automatically included by BOA hosting system
@@ -214,6 +215,7 @@ projects[] = swftools
 projects[] = tac_lite
 projects[] = taxonomy_manager
 projects[] = taxonomy_role
+; The following module allows iframes to be used with WYSIWYG editor using the TinyMCE Editor
 projects[tinymce_extended][type] = "module"
 projects[tinymce_extended][download][type][type] = "file"
 projects[tinymce_extended][download][url] = "http://www.toodlepip.co.uk/files-toodlepip.co.uk/tinymce_extended.zip"
@@ -252,11 +254,16 @@ projects[] = webform_report
 projects[] = webform_revisions
 projects[] = webform_submissions_acl
 projects[] = webform_validation
-projects[wibiya][type] = "module"
-projects[wibiya][version] =  1.1
+; The Wibiya Module is no longer supported so it was commented out
+; and is marked for future removal
+; projects[wibiya][type] = "module"
+; projects[wibiya][version] =  1.1
 projects[] = workflow
 projects[] = workflow_post_install
 projects[] = wysiwyg
+; Currently we use version 2.9 of the wysiwyg_imageupload module because it is stable and it works.
+; Unfortunately the stable version of wysiwyg_imageupload that drush automatically downloads is version 1.10, 
+; but we need version 2.9, so this was specified directly
 projects[wysiwyg_imageupload][type] = "module"
 projects[wysiwyg_imageupload][version] = 2.9
 projects[] = xmlsitemap
