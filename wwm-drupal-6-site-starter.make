@@ -291,11 +291,11 @@ projects[] = admin_theme
 
 ; Libraries Added for Wickwood Marketing Drupal 6 Site Starter
 ; ---------
-; This version of aspell did not work
-; libraries[aspell][download][type] = "file"
-; libraries[aspell][download][url] = "ftp://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz"
-; libraries[aspell][directory_name] = "aspell"
-; libraries[aspell][destination] = "libraries/ckeditor/plugins"
+
+libraries[aspell][download][type] = "file"
+libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/uploads/aspell.7z"
+libraries[aspell][directory_name] = "aspell"
+libraries[aspell][destination] = "libraries/ckeditor/plugins"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[colorbox][download][type] = "file"
