@@ -315,7 +315,7 @@ libraries[jcarousel][download][url] = "http://sorgalla.com/projects/download.php
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
 libraries[jquery.ui][download][type] = "file"
-libraries[jquery.ui][download][url] = "http://code.google.com/p/jquery-ui/downloads/list?q=1.6"
+libraries[jquery.ui][download][url] = "https://code.google.com/p/jquery-ui/downloads/detail?name=jquery.ui-1.6.zip&can=2&q=1.6"
 libraries[jquery.ui][destination] = "sites/all/libraries/jquery.ui"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
