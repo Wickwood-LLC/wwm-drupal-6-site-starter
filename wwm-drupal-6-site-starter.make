@@ -26,17 +26,12 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-; Use BOA Pressflow instead of Drupal core:
-; The following version of Drupal 6 Core is preferred fro BOA server
+; Reviewed on 2014-05-01
+; Use Omega8.cc enhanced Drupal core instead of Drupal core:
+; See https://omega8.cc/how-to-add-custom-platform-properly-140 for latest download URL
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.29.1.tar.gz"
-
-; Patch Pressflow to run on BOA
-; and use robotstxt module_builder
-; Commented this out to test if it would work with out it with new core download.
-; projects[pressflow][patch][] = "file:///data/disk/wwmhosting-admin/static/custom/platform-make-files/wwm-drupal-6-site-starter/wwm-boa-pressflow6-patch.patch"
-
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.31.1.tar.gz"
 
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
@@ -138,8 +133,11 @@ projects[] = front
 projects[] = fusioncharts
 projects[] = getid3
 projects[] = globalredirect
+
+; Reviewed on 2014-05-01
 projects[gmap][type] = "module"
 projects[gmap][version] = 2.0-beta5
+
 projects[] = google_analytics
 projects[] = hierarchical_select
 projects[] = ie6update
@@ -181,8 +179,11 @@ projects[] = nodewords
 projects[] = options_element
 projects[] = page_title
 projects[] = panels
+
+; Reviewed on 2014-05-01
 projects[pathauto][type] = "module"
 projects[pathauto][version] = 2.0
+
 projects[] = path_redirect
 projects[] = php_errors
 projects[] = plugin_manager
@@ -201,9 +202,12 @@ projects[] = schema
 projects[] = search404
 projects[] = seckit
 projects[] = seo_checklist
+
+; Reviewed on 2014-05-01
 ; Services is currently not available for Drupal 6 do to security issue
 ; It may never be supported again
 ; projects[] = services
+
 projects[] = shadowbox
 projects[] = scheduler
 projects[] = simpletest
@@ -215,10 +219,13 @@ projects[] = swftools
 projects[] = tac_lite
 projects[] = taxonomy_manager
 projects[] = taxonomy_role
+
+; Reviewed on 2014-05-01
 ; The following module allows iframes to be used with WYSIWYG editor using the TinyMCE Editor
 projects[tinymce_extended][type] = "module"
 projects[tinymce_extended][download][type][type] = "file"
 projects[tinymce_extended][download][url] = "http://www.toodlepip.co.uk/files-toodlepip.co.uk/tinymce_extended.zip"
+
 projects[] = token
 projects[] = transliteration
 projects[] = twitter
@@ -254,18 +261,24 @@ projects[] = webform_report
 projects[] = webform_revisions
 projects[] = webform_submissions_acl
 projects[] = webform_validation
+
+; Reviewed on 2014-05-01
 ; The Wibiya Module is no longer supported so it was commented out
 ; and is marked for future removal
 ; projects[wibiya][type] = "module"
 ; projects[wibiya][version] =  1.1
+
 projects[] = workflow
 projects[] = workflow_post_install
 projects[] = wysiwyg
+
+; Reviewed on 2014-05-01
 ; Currently we use version 2.9 of the wysiwyg_imageupload module because it is stable and it works.
 ; Unfortunately the stable version of wysiwyg_imageupload that drush automatically downloads is version 1.10, 
 ; but we need version 2.9, so this was specified directly
 projects[wysiwyg_imageupload][type] = "module"
 projects[wysiwyg_imageupload][version] = 2.9
+
 projects[] = xmlsitemap
 
 
