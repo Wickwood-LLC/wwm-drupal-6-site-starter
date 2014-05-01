@@ -122,6 +122,7 @@ projects[] = early_form_alter
 projects[] = edit_term
 projects[] = elements
 projects[] = emfield
+projects[] = enabled_modules
 projects[] = excerpt
 projects[] = fancybox
 projects[] = filefield
