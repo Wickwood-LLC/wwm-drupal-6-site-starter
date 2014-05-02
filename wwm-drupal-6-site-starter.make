@@ -59,7 +59,8 @@ projects[] = httprl
 projects[] = imagecache
 projects[] = imagecache_external
 projects[] = login_security
-projects[] = print
+; Print module is now included in BOA and patched to use BOA wkhtmltopdf library for security
+; projects[] = print
 projects[] = private_upload
 projects[] = purge
 projects[] = readonlymode
@@ -325,8 +326,9 @@ libraries[superfish][download][url] = "http://dl.dropbox.com/u/22795799/superfis
 ; libraries[textpattern][download][branch] = stable
 libraries[tinymce][download][type] = "file"
 libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip"
-libraries[wkhtmltopdf][download][type] = "file"
-libraries[wkhtmltopdf][download][url] = "http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.0/wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz"
+; Print module is now included in BOA and patched to use BOA wkhtmltopdf library for security
+; libraries[wkhtmltopdf][download][type] = "file"
+; libraries[wkhtmltopdf][download][url] = "http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.0/wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz"
 
 ; Sub-library plugins
 libraries[aspell][download][type] = "file"
