@@ -291,11 +291,6 @@ projects[] = admin_theme
 
 ; Libraries Added for Wickwood Marketing Drupal 6 Site Starter
 ; ---------
-
-libraries[aspell][download][type] = "file"
-libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/uploads/aspell.7z"
-libraries[aspell][directory_name] = "aspell"
-libraries[aspell][destination] = "libraries/ckeditor/plugins"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[colorbox][download][type] = "file"
@@ -323,10 +318,6 @@ libraries[phpmailer][download][type] = "file"
 libraries[phpmailer][download][url] = "https://github.com/Synchro/PHPMailer/archive/phpmailer-5.2.0.zip"
 libraries[simplepie][download][type] = "git"
 libraries[simplepie][download][url] = "https://github.com/simplepie/simplepie.git"
-libraries[spellchecker-new][download][type] = "file"
-libraries[spellchecker-new][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_spellchecker_php_2_0_6.zip"
-libraries[spellchecker-new][directory_name] = "spellchecker-new"
-libraries[spellchecker-new][destination] = "libraries/tinymce/jscripts/tiny_mce/plugins"
 libraries[superfish][download][type] = "file"
 libraries[superfish][download][url] = "http://dl.dropbox.com/u/22795799/superfish-library-for-drupal-v1.1.zip"
 ; libraries[textpattern][download][type] = "svn"
@@ -336,6 +327,16 @@ libraries[tinymce][download][type] = "file"
 libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip"
 libraries[wkhtmltopdf][download][type] = "file"
 libraries[wkhtmltopdf][download][url] = "http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.0/wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz"
+
+; Sub-library plugins
+libraries[aspell][download][type] = "file"
+libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/uploads/aspell.7z"
+libraries[aspell][directory_name] = "aspell"
+libraries[aspell][destination] = "libraries/ckeditor/plugins"
+libraries[spellchecker-new][download][type] = "file"
+libraries[spellchecker-new][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_spellchecker_php_2_0_6.zip"
+libraries[spellchecker-new][directory_name] = "spellchecker-new"
+libraries[spellchecker-new][destination] = "libraries/tinymce/jscripts/tiny_mce/plugins"
 
 
 
