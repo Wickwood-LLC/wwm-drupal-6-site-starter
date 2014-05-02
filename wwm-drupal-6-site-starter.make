@@ -315,9 +315,12 @@ libraries[jquery.ui][download][url] = "https://jquery-ui.googlecode.com/files/jq
 ; libraries[jquery.ui][destination] = "sites/all/libraries/jquery.ui"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
-libraries[phpmailer][download][type] = "git"
-libraries[phpmailer][download][url] = "https://github.com/PHPMailer/PHPMailer.git"
-libraries[phpmailer][download][branch] = phpmailer-5.2.0
+; SMTP module apparently has drush_make file that is causing this library to be dowloaded
+; to /sites/all/modules/contrib/smtp/phpmailer and it has to moved to /sites/all/libraries.
+; Added code to bash script to do this.
+; libraries[phpmailer][download][type] = "git"
+; libraries[phpmailer][download][url] = "https://github.com/PHPMailer/PHPMailer.git"
+; libraries[phpmailer][download][branch] = phpmailer-5.2.0
 libraries[simplepie][download][type] = "git"
 libraries[simplepie][download][url] = "https://github.com/simplepie/simplepie.git"
 libraries[superfish][download][type] = "file"
@@ -326,7 +329,7 @@ libraries[superfish][download][url] = "http://dl.dropbox.com/u/22795799/superfis
 ; libraries[textpattern][download][url] = "http://textpattern.googlecode.com/svn/releases/4.4.1/source"
 ; libraries[textpattern][download][branch] = stable
 libraries[tinymce][download][type] = "file"
-libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip"
+libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/tinymce_4.0.25.zip"
 ; Print module is now included in BOA and patched to use BOA wkhtmltopdf library for security
 ; libraries[wkhtmltopdf][download][type] = "file"
 ; libraries[wkhtmltopdf][download][url] = "http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.0/wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz"
@@ -336,10 +339,10 @@ libraries[aspell][download][type] = "file"
 libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/uploads/aspell.7z"
 # libraries[aspell][directory_name] = "aspell"
 libraries[aspell][destination] = "libraries/ckeditor/plugins"
-libraries[spellchecker-new][download][type] = "file"
-libraries[spellchecker-new][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_spellchecker_php_2_0_6.zip"
-libraries[spellchecker-new][directory_name] = "spellchecker-new"
-libraries[spellchecker-new][destination] = "libraries/tinymce/jscripts/tiny_mce/plugins"
+libraries[spellchecker][download][type] = "file"
+libraries[spellchecker][download][url] = "http://download.moxiecode.com/spellcheckers/tinymce_spellchecker_php_4.0.zip"
+libraries[spellchecker][directory_name] = "spellchecker-new"
+libraries[spellchecker][destination] = "libraries/tinymce/jscripts/tiny_mce/plugins"
 
 
 
