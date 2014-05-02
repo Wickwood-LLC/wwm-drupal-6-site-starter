@@ -331,7 +331,7 @@ libraries[wkhtmltopdf][download][url] = "http://downloads.sourceforge.net/projec
 ; Sub-library plugins
 libraries[aspell][download][type] = "file"
 libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/uploads/aspell.7z"
-libraries[aspell][directory_name] = "aspell"
+# libraries[aspell][directory_name] = "aspell"
 libraries[aspell][destination] = "libraries/ckeditor/plugins"
 libraries[spellchecker-new][download][type] = "file"
 libraries[spellchecker-new][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_spellchecker_php_2_0_6.zip"
