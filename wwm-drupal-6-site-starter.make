@@ -341,7 +341,7 @@ libraries[aspell][download][url] = "http://s1.ckeditor.com/sites/default/files/u
 libraries[aspell][destination] = "libraries/ckeditor/plugins"
 libraries[spellchecker][download][type] = "file"
 libraries[spellchecker][download][url] = "http://download.moxiecode.com/spellcheckers/tinymce_spellchecker_php_4.0.zip"
-libraries[spellchecker][directory_name] = "spellchecker-new"
+libraries[spellchecker][directory_name] = "spellchecker"
 libraries[spellchecker][destination] = "libraries/tinymce/jscripts/tiny_mce/plugins"
 
 
