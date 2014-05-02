@@ -36,3 +36,9 @@ chown wwmhosting-admin /data/disk/wwmhosting-admin/static/$platform_dir/includes
 rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
 mv  /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker-new /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
 chown wwmhosting-admin /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
+
+# Unzip Aspell Spell Checker
+mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell/apell.7z ../
+7z x /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell.7z
+rm /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell.7z
+chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell
