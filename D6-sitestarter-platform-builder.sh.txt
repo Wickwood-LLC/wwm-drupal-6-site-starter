@@ -27,3 +27,8 @@ chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir
 mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/contrib/smtp/phpmailer /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/phpmailer
 chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/phpmailer
 rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/contrib/smtp
+
+# Move and rename jquery.ui library
+mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery_ui/development-bundle /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery.ui
+chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery.ui
+rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery_ui

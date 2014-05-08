@@ -156,7 +156,7 @@ projects[] = jquery_plugin
 
 ; Reviewed 2014-05-08
 ; Must use dev version of the module and apply patch from 
-; https://drupal.org/node/1954136  to detect installed version of JQuery UI 1.8+
+; https://drupal.org/node/1954136 to detect installed version of JQuery UI 1.8+
 ; projects[] = jquery_ui
 projects[jquery_ui][version] = 1.x-dev
 projects[jquery_ui][patch][] = "https://drupal.org/files/1954136-1-jquery_ui_version_not_detected.patch"
@@ -317,8 +317,8 @@ libraries[jcarousel][download][type] = "file"
 libraries[jcarousel][download][url] = "http://sorgalla.com/projects/download.php?jcarousel"
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
-libraries[jquery.ui][download][type] = "file"
-libraries[jquery.ui][download][url] = "http://jqueryui.com/resources/download/jquery-ui-1.10.4.zip"
+libraries[jquery_ui][download][type] = "file"
+libraries[jquery_ui][download][url] = "http://jqueryui.com/resources/download/jquery-ui-1.10.4.zip"
 ; libraries[jquery.ui][destination] = "sites/all/libraries/jquery.ui"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
