@@ -153,7 +153,14 @@ projects[] = imagefield
 projects[] = imagemenu
 projects[] = jquery_ui_dialog
 projects[] = jquery_plugin
-projects[] = jquery_ui
+
+; Reviewed 2014-05-08
+; Must use dev version of the module and apply patch from 
+; https://drupal.org/node/1954136  to detect installed version of JQuery UI 1.8+
+; projects[] = jquery_ui
+projects[jquery_ui][version] = 1.x-dev
+projects[jquery_ui][patch][] = "https://drupal.org/files/1954136-1-jquery_ui_version_not_detected.patch"
+
 projects[] = jquery_update
 projects[] = late_form_alter
 projects[] = libraries
