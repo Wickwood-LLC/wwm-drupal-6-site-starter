@@ -307,8 +307,11 @@ projects[] = xmlsitemap
 
 ; Themes
 ; --------
+; Reviewed 2014-08-17
 ; Themes Added for Wickwood Marketing Drupal 6 Site Starter
-projects[] = admin_theme
+; projects[] = admin_theme
+projects[admin_theme][type] = "theme"
+projects[admin_theme][version] = 1.3
 
 ; Libraries Added for Wickwood Marketing Drupal 6 Site Starter
 ; ---------
