@@ -355,12 +355,9 @@ libraries[jquery_ui][download][url] = "http://jqueryui.com/resources/download/jq
 ; libraries[jquery.ui][destination] = "sites/all/libraries/jquery.ui"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
-; SMTP module apparently has drush_make file that is causing this library to be dowloaded
-; to /sites/all/modules/contrib/smtp/phpmailer and it has to moved to /sites/all/libraries.
-; Added code to bash script to do this.
-; libraries[phpmailer][download][type] = "git"
-; libraries[phpmailer][download][url] = "https://github.com/PHPMailer/PHPMailer.git"
-; libraries[phpmailer][download][branch] = phpmailer-5.2.0
+libraries[phpmailer][download][type] = "git"
+libraries[phpmailer][download][url] = "https://github.com/PHPMailer/PHPMailer.git"
+libraries[phpmailer][download][branch] = phpmailer-5.2.0
 libraries[simplepie][download][type] = "git"
 libraries[simplepie][download][url] = "https://github.com/simplepie/simplepie.git"
 libraries[superfish][download][type] = "file"
