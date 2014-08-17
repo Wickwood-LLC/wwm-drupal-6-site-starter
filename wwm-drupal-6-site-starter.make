@@ -238,12 +238,6 @@ projects[] = schema
 projects[] = search404
 projects[] = seckit
 projects[] = seo_checklist
-
-; Reviewed on 2014-05-01
-; Services is currently not available for Drupal 6 do to security issue
-; It may never be supported again
-; projects[] = services
-
 projects[] = shadowbox
 projects[] = scheduler
 projects[] = simpletest
@@ -256,7 +250,7 @@ projects[] = tac_lite
 projects[] = taxonomy_manager
 projects[] = taxonomy_role
 
-; Reviewed on 2014-05-01
+; Reviewed on 2014-08-17
 ; The following module allows iframes to be used with WYSIWYG editor using the TinyMCE Editor
 projects[tinymce_extended][type] = "module"
 projects[tinymce_extended][download][type][type] = "file"
@@ -297,18 +291,11 @@ projects[] = webform_report
 projects[] = webform_revisions
 projects[] = webform_submissions_acl
 projects[] = webform_validation
-
-; Reviewed on 2014-05-01
-; The Wibiya Module is no longer supported so it was commented out
-; and is marked for future removal
-; projects[wibiya][type] = "module"
-; projects[wibiya][version] =  1.1
-
 projects[] = workflow
 projects[] = workflow_post_install
 projects[] = wysiwyg
 
-; Reviewed on 2014-05-01
+; Reviewed on 2014-08-17
 ; Currently we use version 2.9 of the wysiwyg_imageupload module because it is stable and it works.
 ; Unfortunately the stable version of wysiwyg_imageupload that drush automatically downloads is version 1.10, 
 ; but we need version 2.9, so this was specified directly
