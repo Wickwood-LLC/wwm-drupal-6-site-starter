@@ -215,9 +215,11 @@ projects[] = options_element
 projects[] = page_title
 projects[] = panels
 
-; Reviewed on 2014-05-01
+; Reviewed on 2014-08-17
+; Must specify version to pull D6-2.x-dev version of the module
+; 6.x-2.0 version is very old
 projects[pathauto][type] = "module"
-projects[pathauto][version] = 2.0
+projects[pathauto][version] = 2.x-dev
 
 projects[] = path_redirect
 projects[] = php_errors
