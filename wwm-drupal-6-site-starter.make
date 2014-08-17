@@ -300,7 +300,11 @@ projects[] = wysiwyg
 projects[wysiwyg_imageupload][type] = "module"
 projects[wysiwyg_imageupload][version] = 2.9
 
-projects[] = xmlsitemap
+; Reviewed on 2014-08-17
+; Project not found for xmlsitemap by drush, so explicitly asking for module and version
+; projects[] = xmlsitemap
+projects[xmlsitemap][type] = "module"
+projects[xmlsitemap][version] = 2.0
 
 
 
@@ -308,6 +312,7 @@ projects[] = xmlsitemap
 ; --------
 ; Reviewed 2014-08-17
 ; Themes Added for Wickwood Marketing Drupal 6 Site Starter
+; Project not found for admin_theme by drush, so explicitly asking for theme and version
 ; projects[] = admin_theme
 projects[admin_theme][type] = "theme"
 projects[admin_theme][version] = 1.3
