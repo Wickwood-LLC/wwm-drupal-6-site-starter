@@ -241,7 +241,15 @@ projects[] = scheduler
 projects[] = simpletest
 projects[] = slideshow_creator
 projects[] = smart_menus
-projects[] = smtp
+
+; Reviewed on 2014-08-17
+; Need to use dev version of smtp module until Issue #1923728 which deativates make file 
+; to prevent it from running in nested Aegir drush makes is included in stable version (6.x-1.2)
+; see https://www.drupal.org/node/1923728
+; projects[] = smtp
+projects[smtp][type] = "module"
+projects[smtp][version] = 1.x-dev
+
 projects[] = swfobject_api
 projects[] = swftools
 projects[] = tac_lite
