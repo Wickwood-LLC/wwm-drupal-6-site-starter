@@ -9,7 +9,7 @@ rm -r /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/getid
 
 # Copy image.imagemagick.inc file to platform /includes file
 cp /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/image/image.imagemagick.inc /data/disk/wwmhosting-admin/static/$platform_dir/includes/image.imagemagick.inc
-chown wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/includes/image.imagemagick.inc
+# chown wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/includes/image.imagemagick.inc
 
 # Move TinyMCE Spell Checker
 # rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/spellchecker
@@ -21,14 +21,14 @@ mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor
 cd /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/
 7z x aspell.7z
 rm /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell.7z
-chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell
+# chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/ckeditor/plugins/aspell
 
 # Move phpmailer that is downloaded my SMTP module drush_make
 mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/contrib/smtp/phpmailer /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/phpmailer
-chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/phpmailer
+# chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/phpmailer
 rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/modules/contrib/smtp
 
 # Move and rename jquery.ui library
 mv /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery_ui/development-bundle /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery.ui
-chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery.ui
+# chown -R wwmhosting-admin:users /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery.ui
 rm -rf /data/disk/wwmhosting-admin/static/$platform_dir/sites/all/libraries/jquery_ui
