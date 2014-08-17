@@ -82,7 +82,7 @@ projects[] = views_content_cache
 projects[] = views404
 	
 ; Contrib [F]orce[E]nabled	
-projects[] = entitycache
+; projects[] = entitycache
 projects[] = robotstxt
 	
 ; Contrib [F]orce[D]isabled	
