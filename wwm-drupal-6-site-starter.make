@@ -161,7 +161,8 @@ projects[] = fusioncharts
 projects[] = getid3
 projects[] = globalredirect
 
-; Reviewed on 2014-05-01
+; Reviewed on 2014-08-17
+; Must specify version to pull D6 version of the module
 projects[gmap][type] = "module"
 projects[gmap][version] = 2.0-beta5
 
