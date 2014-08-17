@@ -39,7 +39,6 @@ projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.33.
 ; See https://omega8.cc/supported-enabled-disabled-a-complete-list-150
 ; --------
 ; Contrib [S]upported:	
-projects[] = ais
 projects[] = audio
 projects[] = backup_migrate
 projects[] = ckeditor
