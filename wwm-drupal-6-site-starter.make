@@ -26,63 +26,87 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-; Reviewed on 2014-05-01
+; Reviewed on 2014-08-17
 ; Use Omega8.cc enhanced Drupal core instead of Drupal core:
 ; See https://omega8.cc/how-to-add-custom-platform-properly-140 for latest download URL
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.31.1.tar.gz"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.33.1.tar.gz"
 
+; Reviewed on 2014-08-17
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
+; See https://omega8.cc/supported-enabled-disabled-a-complete-list-150
 ; --------
-projects[] = admin
-projects[] = advagg
+; Contrib [S]upported:	
+projects[] = ais
 projects[] = audio
 projects[] = backup_migrate
-projects[] = blockcache_alter
-; projects[] = boost
-projects[] = cache_backport
-projects[] = cdn
 projects[] = ckeditor
+; projects[] = fbconnect
+projects[] = fckeditor
+projects[] = imagecache
+projects[] = imagecache_external
+projects[] = tinybrowser
+projects[] = wysiwyg_spellcheck
+	
+; Contrib [S]upported and [B]undled:	
+projects[] = advagg
+projects[] = blockcache_alter
+projects[] = boost
+projects[] = cdn
 projects[] = config_perms
 projects[] = css_emimage
 projects[] = dbtuner
-projects[] = devel
+projects[] = display_cache
 projects[] = esi
 projects[] = expire
-projects[] = fbconnect
-projects[] = fckeditor
 projects[] = filefield_nginx_progress
+projects[] = force_password_change
 projects[] = fpa
 projects[] = httprl
-projects[] = imagecache
-projects[] = imagecache_external
 projects[] = login_security
-; Print module is now included in BOA and patched to use BOA wkhtmltopdf library for security
-; projects[] = print
+projects[] = panels_content_cache
+projects[] = phpass
 projects[] = private_upload
 projects[] = purge
+; Print module is now included in BOA and patched to use BOA wkhtmltopdf library for security
+; projects[] = print
 projects[] = readonlymode
-; Took out redis module because I could not find a D6 version
-; projects[] = redis
-projects[] = robotstxt
-; Moved seckit because it was no longer listed in BOA list
+projects[] = reroute_email
 projects[] = securesite
 projects[] = site_verify
 projects[] = taxonomy_edge
-; projects[] = textile
-projects[] = tinybrowser
-projects[] = tinymce
+projects[] = textile
 projects[] = variable_clean
+projects[] = views_cache_bully
 projects[] = views_content_cache
 projects[] = views404
-projects[] = wysiwyg_spellcheck
+	
+; Contrib [F]orce[E]nabled	
+projects[] = entitycache
+projects[] = robotstxt
+	
+; Contrib [F]orce[D]isabled	
+; Commented out modules never used anyway
+; projects[] = background_process
+; projects[] = coder
+; projects[] = css_gzip
+projects[] = devel
+; projects[] = javascript_aggregator
+; projects[] = l10n_update
+; projects[] = performance
+; projects[] = poormanscron
+; projects[] = supercron
+; projects[] = ultimate_cron
 
-; Add Themes that are automatically included by BOA hosting system
-; to override them with the latest versions
-; --------
-projects[] = tao
+; Contrib [NA]:	
+; Commented out modules never used anyway
+; projects[] = cache_backport
+; projects[] = redis
+	
+; Contrib [S]oft[E]nabled:		
+projects[] = admin
 projects[] = rubik
 
 ; Modules Added for Wickwood Marketing Drupal 6 Site Starter
