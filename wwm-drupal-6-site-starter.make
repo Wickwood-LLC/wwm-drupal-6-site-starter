@@ -57,7 +57,6 @@ projects[] = cdn
 projects[] = config_perms
 projects[] = css_emimage
 projects[] = dbtuner
-projects[] = display_cache
 projects[] = esi
 projects[] = expire
 projects[] = filefield_nginx_progress
