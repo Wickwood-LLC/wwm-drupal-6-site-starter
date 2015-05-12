@@ -34,7 +34,7 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.35.1.tar.gz"
 
 ; Reviewed on 2015-05-12 - Added tinymce, js, session_expire, hacked, memcache,
-; memcache_admin, search_krumo, security_review, stage_file_proxy,
+; search_krumo, security_review, stage_file_proxy,
 ; varnish, watchdog_live, xhprof
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
@@ -100,7 +100,6 @@ projects[] = hacked
 ; projects[] = javascript_aggregator
 ; projects[] = l10n_update
 projects[] = memcache
-projects[] = memcache_admin
 ; projects[] = performance
 ; projects[] = poormanscron
 projects[] = search_krumo
