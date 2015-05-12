@@ -99,7 +99,7 @@ projects[] = devel
 projects[] = hacked
 ; projects[] = javascript_aggregator
 ; projects[] = l10n_update
-projects[] = projects[] = memcache
+projects[] = memcache
 projects[] = memcache_admin
 ; projects[] = performance
 ; projects[] = poormanscron
