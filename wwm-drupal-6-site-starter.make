@@ -337,7 +337,7 @@ projects[xmlsitemap][version] = 2.1
 
 ; Themes
 ; --------
-; Reviewed 2014-08-17
+; Reviewed 2015-05-12 - No change
 ; Themes Added for Wickwood Marketing Drupal 6 Site Starter
 ; admin_theme project not found by drush, so explicitly asking for theme and version
 ; projects[] = admin_theme
