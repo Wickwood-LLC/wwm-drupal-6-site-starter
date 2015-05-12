@@ -33,7 +33,9 @@ projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.35.1.tar.gz"
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - Added tinymce, js, session_expire, hacked, memcache,
+; memcache_admin, search_krumo, security_review, stage_file_proxy,
+; varnish, watchdog_live, xhprof
 ; Add Modules that are automatically included by BOA hosting system
 ; to override them with the latest versions
 ; See https://omega8.cc/supported-enabled-disabled-a-complete-list-150
@@ -47,6 +49,7 @@ projects[] = fckeditor
 projects[] = imagecache
 projects[] = imagecache_external
 projects[] = tinybrowser
+projects[] = tinymce
 projects[] = wysiwyg_spellcheck
 	
 ; Contrib [S]upported and [B]undled:	
@@ -63,6 +66,7 @@ projects[] = filefield_nginx_progress
 projects[] = force_password_change
 projects[] = fpa
 projects[] = httprl
+projects[] = js
 projects[] = login_security
 projects[] = panels_content_cache
 projects[] = phpass
@@ -73,6 +77,7 @@ projects[] = purge
 projects[] = readonlymode
 projects[] = reroute_email
 projects[] = securesite
+projects[] = session_expire
 projects[] = site_verify
 projects[] = taxonomy_edge
 projects[] = textile
@@ -91,12 +96,21 @@ projects[] = robotstxt
 ; projects[] = coder
 ; projects[] = css_gzip
 projects[] = devel
+projects[] = hacked
 ; projects[] = javascript_aggregator
 ; projects[] = l10n_update
+projects[] = projects[] = memcache
+projects[] = memcache_admin
 ; projects[] = performance
 ; projects[] = poormanscron
+projects[] = search_krumo
+projects[] = security_review
+projects[] = stage_file_proxy
 ; projects[] = supercron
 ; projects[] = ultimate_cron
+projects[] = varnish
+projects[] = watchdog_live
+projects[] = xhprof
 
 ; Contrib [NA]:	
 ; Commented out modules never used anyway
