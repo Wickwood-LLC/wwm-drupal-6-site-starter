@@ -173,7 +173,7 @@ projects[] = fusioncharts
 projects[] = getid3
 projects[] = globalredirect
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - No change
 ; Must specify version to pull D6 version of the module
 projects[gmap][type] = "module"
 projects[gmap][version] = 2.0-beta5
@@ -191,7 +191,7 @@ projects[] = imagemenu
 projects[] = jquery_ui_dialog
 projects[] = jquery_plugin
 
-; Reviewed 2014-08-17
+; Reviewed 2015-05-12 - No change
 ; Must use dev version of the module and apply patch from 
 ; https://drupal.org/node/1954136 to detect installed version of JQuery UI 1.8+
 ; projects[] = jquery_ui
@@ -227,7 +227,7 @@ projects[] = options_element
 projects[] = page_title
 projects[] = panels
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - No change
 ; Must specify version to pull D6-2.x-dev version of the module
 ; 6.x-2.0 version is very old
 projects[pathauto][type] = "module"
@@ -256,7 +256,7 @@ projects[] = simpletest
 projects[] = slideshow_creator
 projects[] = smart_menus
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - No change
 ; Need to use dev version of smtp module until Issue #1923728 which deativates make file 
 ; to prevent it from running in nested Aegir drush makes is included in stable version (6.x-1.2)
 ; see https://www.drupal.org/node/1923728
@@ -270,7 +270,7 @@ projects[] = tac_lite
 projects[] = taxonomy_manager
 projects[] = taxonomy_role
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - No change
 ; The following module allows iframes to be used with WYSIWYG editor using the TinyMCE Editor
 projects[tinymce_extended][type] = "module"
 projects[tinymce_extended][download][type][type] = "file"
@@ -314,24 +314,24 @@ projects[] = webform_validation
 projects[] = workflow
 projects[] = workflow_post_install
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 -  No change
 ; wysiwyg project not found by drush, so explicitly asking for module and version
 ; projects[] = wysiwyg
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][version] = 2.4
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - No change
 ; Currently we use version 2.9 of the wysiwyg_imageupload module because it is stable and it works.
 ; Unfortunately the stable version of wysiwyg_imageupload that drush automatically downloads is version 1.10, 
 ; but we need version 2.9, so this was specified directly
 projects[wysiwyg_imageupload][type] = "module"
 projects[wysiwyg_imageupload][version] = 2.9
 
-; Reviewed on 2014-08-17
+; Reviewed on 2015-05-12 - Updated module version to 2.1
 ; xmlsitemap project not found by drush, so explicitly asking for module and version
 ; projects[] = xmlsitemap
 projects[xmlsitemap][type] = "module"
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.1
 
 
 
